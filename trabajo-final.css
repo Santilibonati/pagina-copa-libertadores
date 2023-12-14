@@ -1,0 +1,227 @@
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:transparent;
+}
+
+
+section{
+    margin-bottom: 60px;
+}
+
+
+footer{
+    background-color: rgb(89, 88, 156);
+    font-size:2rem;
+    text-align: center;
+    padding: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+hr{
+    display:none;
+    margin: 100px;
+}
+
+
+.ultimate-fb{
+    background: url("pngwing.com.png") fixed center/cover;
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ultimate-fb::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background:black;
+    opacity: 0.8;
+}
+
+
+p{
+    background-color:transparent;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+#titulo-inicio{
+    color:blue;
+    font-size:4rem;
+    font-weight:bold;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#titulo-ultimate{
+    color:rgb(207, 31, 31);
+    margin-top: 10%;
+    font-size:7rem;
+    padding: 15%;
+    box-sizing:border-box;
+    margin: 40px auto 10px auto;
+    font-weight: bold;
+
+    
+
+}
+#titulo-historia{
+    color:#1a3264;
+    font-weight: bold;
+    font-size:4rem;
+    margin-top: 180px;
+    padding: 20px;
+    
+
+}
+
+.texto-historia{
+    color:rgb(56, 56, 56);
+    font-size: large;
+    font-family:'Kanit';
+    word-spacing: 5px; 
+    background-color:transparent;
+    font-weight: bold;
+
+
+}
+.parrafo-historia{
+    color:rgb(250, 223, 154);
+    text-transform:capitalize;
+    font-size: medium;
+    font-family: 'Kanit';
+    word-spacing: 6px; 
+    font-weight: bold;
+}
+.titulo-espiritu{
+    color:rgba(155, 15, 15, 0.829);
+    font-size: 40px;
+    font-weight: bold;
+    width: 500px;
+    margin-top: 180px;
+    padding: 20px;
+
+}
+#texto-espiritu{
+    top: 20px;
+    border-top: 15px;
+    border-bottom: 15px;
+    right: -15px;
+    font-size: 18px;
+    background-color: #d65f4a;
+}
+
+#titulo-reglas{
+    color:rgba(0, 0, 0, 0.829);
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 20px;
+
+
+
+}
+#texto-reglas{
+    padding: 15px;
+    background-color: #8d98fa;
+    position: relative; 
+    border-radius: 6px;
+    font-size: 20px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.30);
+    font-weight:normal;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+
+}
+a{
+    color:rgb(10, 10, 10);
+
+}
+ul {
+    list-style: none;
+}
+
+#titulo-torneo{
+    font-size: 6rem;
+    padding-top: 10%;
+    text-align:center;
+    color:#2d70ff;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(145, 145, 145, 0.87);
+    position: relative; 
+    
+}
+.ul-torneo{
+    font-weight: 100px;
+}
+#ul-posiciones{
+
+    font-size: 20px;
+}
+#parrafo-torneo{
+    font-size: medium;
+
+
+}
+.titulo-paises{
+    color:rgb(57, 17, 240);
+    font-size:3rem;
+    font-weight: bold;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+ 
+
+#posiciones-juego{
+    font-size: xx-large;
+    color:rgb(94, 14, 14);
+    margin-top: 100px;
+    padding: 20px;
+}
+.posiciones-ul{
+    font-size:x-large;
+    margin: 2%;
+    padding: 2%;
+    color:#101a2e;
+    margin-top:10px;
+
+}
+
+.torneo-ul{
+    background-color: #8fb0f7;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px auto 30px auto;
+    font-size: 18px;
+    font-weight: bold;
+    
+
+}
+.clase-ul{
+    font-size: 2rem;
+    color:rgb(36, 36, 252);
+    padding-top: 5%;
+    margin: 3px;
+
+
+}
+
+.paises-ul{
+    font-size: 2rem;
+    margin: 1px;
+    font-family: 'Caveat Brush';
+    color:black;
+    
+   
+}
