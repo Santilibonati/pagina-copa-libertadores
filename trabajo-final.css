@@ -1,227 +1,150 @@
+/*ESTILOS DEL TP FINAL DEV WEB*/
 
+/* 
+   .paletadecolores
+   rojos:#bd213f,
+            #ca0015,
+            #b91e1e, 
+      verdes:#0b6b3d,
+      azul:#02425c,
+           #42798e,
+           #012e4a, 
+      */
+
+/*ESTILOS SEGUN ELEMENTO HTML*/
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color:transparent;
-}
-
-
 section{
-    margin-bottom: 60px;
+    padding: 7% 6%;
 }
 
-
-footer{
-    background-color: rgb(89, 88, 156);
-    font-size:2rem;
+h1 {
+    font-size: 5rem !important;
+    font-weight: lighter;
+}
+h2 {
+    font-size: 2rem !important;
+}
+h3 {
+    font-size: 3rem !important;
     text-align: center;
-    padding: 1.5rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4 {
+    font-size: 2.5rem !important;
+}
+p {
+    font-size: 1.5rem !important;
+}
+h1,h3{
+    margin: 40px auto 10px auto;
+}
+h3,h4{
+    font-weight: bold;
+}
+
+h1, h2,footer{
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+footer{
+    background-color:#02425c;
+    color: #bca693;
+    font-size:2rem;
+    padding: 3rem;
 }
 
 
-hr{
-    display:none;
-    margin: 100px;
+
+/*ESTILOS SEGUN ID*/
+#a-reglas{
+    color: #c7814a;
+    cursor: pointer;
+    transition: color 1s;
 }
 
+#a-reglas:hover{
+    color: #095816;
+    opacity: 0.8;
+}
 
-.ultimate-fb{
-    background: url("pngwing.com.png") fixed center/cover;
+#seccion1,#seccion3{ /*las secciones de fondo claro*/
+    background-color: #beb7b2;
+}
+#seccion2{ /*la de de fondo oscuro*/
+    background-color: #bc0119;
+}
+
+#seccion1,#seccion2,#seccion3{
+    color: #0b100c;
+}
+#nav-ultimate{
+   background-color:#02425c;
+}
+#seccion0{
+    padding: 0 !important;
+    background: url("ultimate-frisbee.jpg") fixed top/cover;
     height: 700px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
-.ultimate-fb::before{
+#seccion0::before{
     content: '';
     height: 100%;
     width: 100%;
-    background:black;
+    background: black;
     opacity: 0.8;
 }
-
-
-p{
-    background-color:transparent;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-   
-
+#seccion0-div{
+    padding: 0.3rem;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
 }
 #titulo-inicio{
-    color:blue;
+    color:rgb(49, 49, 133);
     font-size:4rem;
-    font-weight:bold;
-    margin-top: 10px;
-    padding: 10px;
     text-align: center;
 }
-#titulo-ultimate{
-    color:rgb(207, 31, 31);
-    margin-top: 10%;
-    font-size:7rem;
-    padding: 15%;
-    box-sizing:border-box;
-    margin: 40px auto 10px auto;
-    font-weight: bold;
 
-    
-
-}
-#titulo-historia{
-    color:#1a3264;
-    font-weight: bold;
-    font-size:4rem;
-    margin-top: 180px;
-    padding: 20px;
-    
-
-}
-
-.texto-historia{
-    color:rgb(56, 56, 56);
-    font-size: large;
-    font-family:'Kanit';
-    word-spacing: 5px; 
-    background-color:transparent;
-    font-weight: bold;
-
-
-}
-.parrafo-historia{
-    color:rgb(250, 223, 154);
-    text-transform:capitalize;
-    font-size: medium;
-    font-family: 'Kanit';
-    word-spacing: 6px; 
-    font-weight: bold;
-}
-.titulo-espiritu{
-    color:rgba(155, 15, 15, 0.829);
-    font-size: 40px;
-    font-weight: bold;
-    width: 500px;
-    margin-top: 180px;
-    padding: 20px;
-
-}
-#texto-espiritu{
-    top: 20px;
-    border-top: 15px;
-    border-bottom: 15px;
-    right: -15px;
-    font-size: 18px;
-    background-color: #d65f4a;
-}
-
-#titulo-reglas{
-    color:rgba(0, 0, 0, 0.829);
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 10px;
-    padding: 20px;
-
-
-
-}
-#texto-reglas{
-    padding: 15px;
-    background-color: #8d98fa;
-    position: relative; 
-    border-radius: 6px;
-    font-size: 20px;
-    box-shadow: 0px 15px 25px rgba(0,0,0,0.30);
-    font-weight:normal;
-    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
-
-}
-a{
-    color:rgb(10, 10, 10);
-
-}
-ul {
-    list-style: none;
-}
-
-#titulo-torneo{
-    font-size: 6rem;
-    padding-top: 10%;
-    text-align:center;
-    color:#2d70ff;
-    border-radius: 8px;
-    box-shadow: 10px 10px 10px rgba(145, 145, 145, 0.87);
-    position: relative; 
+#a-pagina-hija{ /* VER ESTO DESPUES  */
+    color: #bc0119;
+    cursor: pointer;
     
 }
-.ul-torneo{
-    font-weight: 100px;
+#a-pagina-hija:hover{
+    color: #fff;
+    transition: color 1s;
 }
-#ul-posiciones{
-
-    font-size: 20px;
-}
-#parrafo-torneo{
-    font-size: medium;
 
 
+/*ESTILOS SEGUN CLASES*/
+a.nav-link{
+    color:#81bece;
+    cursor: pointer;
+    
 }
-.titulo-paises{
-    color:rgb(57, 17, 240);
-    font-size:3rem;
-    font-weight: bold;
-    margin-top: 100px;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 100px;
+a.nav-link:hover{
+    color: #fff;
+    transition: color 1s;
 }
- 
-
+.sub-contenedor-seccion{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 #posiciones-juego{
-    font-size: xx-large;
+    
     color:rgb(94, 14, 14);
-    margin-top: 100px;
-    padding: 20px;
-}
-.posiciones-ul{
-    font-size:x-large;
-    margin: 2%;
-    padding: 2%;
-    color:#101a2e;
-    margin-top:10px;
-
 }
 
-.torneo-ul{
-    background-color: #8fb0f7;
-    border-radius: 10px;
-    padding: 25px;
-    margin: 20px auto 30px auto;
-    font-size: 18px;
-    font-weight: bold;
-    
-
-}
-.clase-ul{
-    font-size: 2rem;
-    color:rgb(36, 36, 252);
-    padding-top: 5%;
-    margin: 3px;
-
-
-}
-
-.paises-ul{
-    font-size: 2rem;
-    margin: 1px;
-    font-family: 'Caveat Brush';
-    color:black;
-    
-   
-}
+ 
